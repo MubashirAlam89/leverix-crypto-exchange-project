@@ -26,7 +26,218 @@
 
     <title>Leverix</title>
   </head>
-  <body></body>
+  <body>
+    <div class="main-container">
+      <!-- Main Screen Section Start -->
+      <div id="home" class="main-screen">
+        <nav
+          class="flex justify-between items-center gap-x-4 px-16 max-sm:px-7 py-4 border-b-2 border-white/50 text-xl max-md:text-lg"
+        >
+          <a href="/">
+            <img
+              class="w-42 max-md:w-40"
+              src="./assets/images/leverix-logo/leverix-nav-logo.svg"
+              alt="leverix"
+            />
+          </a>
+          <ul class="flex gap-x-6 items-center font-medium max-xl:hidden">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#loan">Loan</a></li>
+            <li><a href="#token">Token</a></li>
+            <li><a href="#staking">Staking</a></li>
+            <li><a href="#media">Media</a></li>
+            <li><a href="#rating">Rating</a></li>
+            <li
+              class="bg-white/5 flex items-center border-2 border-white/50 px-3 py-1 rounded-full gap-x-2"
+            >
+              <a
+                target="_blank"
+                class="hover:text-white/50"
+                href="./pages/login.html"
+                >Log In</a
+              >
+              <p class="text-white/50">|</p>
+              <a
+                target="_blank"
+                class="hover:text-white/50"
+                href="./pages/signup.html"
+              >
+                Sign Up
+              </a>
+            </li>
+          </ul>
+          <div class="flag flex items-center gap-x-2 cursor-pointer">
+            <i
+              class="fa fa-sort-desc text-white/50 text-2xl pb-2"
+              aria-hidden="true"
+            ></i>
+            <img src="./assets/images/icons/England-Flag-icon.svg" alt="" />
+            <div
+              class="menu hidden max-xl:block ml-4 p-3 px-2 border-2 border-white/20 rounded-lg relative"
+            >
+              <img src="./assets/images/icons/burger-icon.svg" alt="" />
+              <ul
+                style="background-color: #00aa5d; opacity: 0.95; right: -50px"
+                class="menu-list w-52 top-12 px-8 py-10 rounded-xl border-2 border-white/50 right-0 bg-white/50 flex-col absolute gap-y-4 items-center justify-center text-center font-medium hidden text-xl transition-all"
+              >
+                <li><a href="#home">Home</a></li>
+                <li><a href="#loan">Loan</a></li>
+                <li><a href="#token">Token</a></li>
+                <li><a href="#staking">Staking</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#rating">Rating</a></li>
+
+                <li class="flex flex-col gap-y-2">
+                  <a
+                    target="_blank"
+                    class="bg-white/5 border-2 px-3 py-1 rounded-lg gap-x-2 hover:bg-white/10"
+                    href="./pages/login.html"
+                    >LogIn</a
+                  >
+                  <a
+                    target="_blank"
+                    class="bg-white/5 flex items-center border-2 px-3 py-1 rounded-lg gap-x-2 hover:bg-white/10"
+                    href="./pages/signup.html"
+                    >SignUp</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div
+          class="hero-section flex justify-center items-start max-xl:flex-wrap-reverse max-xl: p-16 max-sm:px-7"
+        >
+          <div
+            data-aos="fade-right"
+            data-aos-duration="600"
+            class="hero-section-content flex flex-col items-start gap-y-14"
+          >
+            <h1 class="text-white text-7xl max-md:text-4xl">
+              <span style="color: #00aa5d">Buy Crypto</span> With up to 10x
+              Leverage
+            </h1>
+            <p class="text-white text-4xl max-md:text-xl">
+              Discover the easiest way to buy and stake on the crypto market
+              with secure self backed loans that are protected by collaterals
+            </p>
+            <div
+              class="flex items-center justify-between px-6 py-2 rounded-full gap-x-4 border-2 border-white/50 bg-white/5 w-max max-md:w-full"
+            >
+              <img
+                class="w-10 max-sm:w-8"
+                src="./assets/images/icons/green-star-icon.svg"
+                alt=""
+              />
+              <h1 class="text-white text-2xl">Leverix</h1>
+              <div class="flex gap-x-2">
+                <img
+                  class="w-8 max-sm:w-4"
+                  src="./assets/images/icons/white-star-icon.svg"
+                  alt=""
+                />
+                <img
+                  class="w-8 max-sm:w-4"
+                  src="./assets/images/icons/white-star-icon.svg"
+                  alt=""
+                />
+                <img
+                  class="w-8 max-sm:w-4"
+                  src="./assets/images/icons/white-star-icon.svg"
+                  alt=""
+                />
+                <img
+                  class="w-8 max-sm:w-4"
+                  src="./assets/images/icons/white-star-icon.svg"
+                  alt=""
+                />
+                <img
+                  class="w-8 max-sm:w-4"
+                  src="./assets/images/icons/white-star-icon.svg"
+                  alt=""
+                />
+              </div>
+              <div
+                class="flex gap-x-2 justify-center items-center max-md:hidden"
+              >
+                <p class="text-white">Trustscore</p>
+                <p class="text-white">|</p>
+                <p class="underline text-white">25,382 reviews</p>
+              </div>
+            </div>
+            <div class="flex justify-between gap-5 flex-wrap max-md:w-full">
+              <a
+                style="background-color: #00aa5d"
+                class="flex justify-center items-center text-white px-4 py-2 rounded-full w-80 border-2 border-white/20 max-md:w-full"
+                href=""
+              >
+                <p class="text-white text-xl">Get sarted</p>
+              </a>
+              <a
+                href=""
+                style="background-color: #043a2c"
+                class="text-white flex items-center justify-center gap-x-2 px-4 py-2 rounded-full border-2 border-white/20 w-80 max-md:w-full"
+              >
+                <img
+                  class="w-8 pt-1"
+                  src="./assets/images/icons/green-youtube-logo.svg"
+                  alt=""
+                />
+                <p class="text-white text-xl">Watch video</p>
+              </a>
+            </div>
+            <h2 class="text-white text-2xl">in parternership with:</h2>
+            <div
+              class="flex gap-3 max-md:flex-col max-md:w-full max-md:justify-center z-40"
+            >
+              <a
+                target="_blank"
+                href="https://www.bitgo.com/"
+                class="wallet-btn px-7 py-6 rounded-lg"
+              >
+                <img
+                  class="w-28 mx-auto"
+                  src="./assets/images/Brands-Logo/bitgo-logo.png"
+                  alt="bitgo"
+                />
+              </a>
+
+              <a
+                target="_blank"
+                href="https://www.coinbase.com/"
+                class="wallet-btn px-7 py-6 rounded-lg"
+              >
+                <img
+                  class="w-28 mx-auto"
+                  src="./assets/images/Brands-Logo/coinbase-logo.png"
+                  alt="bitgo"
+                />
+              </a>
+            </div>
+          </div>
+          <img
+            data-aos="fade-left"
+            data-aos-duration="600"
+            class="w-1/2 max-xl:w-4/5 max-sm:w-11/12"
+            src="./assets/images/mobile.svg"
+            alt="mobile"
+          />
+        </div>
+      </div>
+      <div class="max-2xl:hidden">
+        <img
+          style="margin-top: -350px"
+          src="./assets/images/backgrounds/Hero-Section-background-bottom.svg"
+          class="w-full"
+          alt=""
+        />
+      </div>
+
+      <!-- Main Screen Section End -->
+
+      <!-- *************************************************** -->
+    </div>
+  </body>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
