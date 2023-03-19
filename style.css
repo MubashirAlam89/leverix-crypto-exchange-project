@@ -27,3 +27,48 @@ html {
   overflow-x: hidden;
 }
 /* Main Container */
+
+/* ****************************************** */
+
+/* Main-Screen Section Start */
+nav {
+  background-color: #043a2c;
+}
+nav a {
+  color: rgba(255, 255, 255, 0.5);
+  transition: all 200ms;
+}
+nav a:hover {
+  color: var(--green);
+}
+.main-screen {
+  padding-left: 0.3px;
+  padding-right: 0.3px;
+  width: 100%;
+}
+.hero-section {
+  background-image: url(./assets/images/backgrounds/Hero-Section-background-image-full.PNG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.wallet-btn {
+  background-image: linear-gradient(-69deg, #ffffff 0%, #eff2f8 100%);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.menu-list {
+  border-color: var(--grey);
+}
+.menu:hover .menu-list {
+  display: flex;
+}
+.menu-list a {
+  color: var(--grey);
+  border-color: var(--grey);
+}
+.menu-list a:hover {
+  color: #383838a6;
+}
+/* Main-Screen Section End */
+
+/* ****************************************** */
