@@ -982,3 +982,218 @@ footer {
 /* Footer Section End */
 
 /* ****************************************** */
+
+/* media Queries */
+
+@media screen and (max-width: 1535px) {
+  .detail-container {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .detail-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .detail h1 {
+    font-size: 50px;
+  }
+  .detail h3 {
+    font-size: 30px;
+  }
+  .token-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .token-container .token-image {
+    width: 90%;
+  }
+  .token-benefits-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .token-benefit-card {
+    align-items: center;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .benefits-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .benefit-cards {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .media-cards {
+    grid-template-columns: 1fr;
+  }
+  .prefer-container {
+    padding-left: 200px;
+    background-position: 3%;
+  }
+  .user-media-card:nth-child(2) {
+    margin-top: 0px;
+  }
+  .user-media-card:nth-child(4) {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .detail-container h1 {
+    font-size: 40px;
+  }
+  .detail-container h3 {
+    font-size: 20px;
+  }
+
+  .loan-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .loan-container .bank-image {
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .user-media-card {
+    height: 300px;
+  }
+  .media-card-content h2 {
+    font-size: 20px;
+  }
+  .media-card-content h1 {
+    font-size: 20px;
+  }
+  .media-card-img {
+    background-position: top;
+  }
+  .media-card-img h1 {
+    font-size: 20px;
+  }
+  .security-container .sheild-image {
+    width: 90%;
+  }
+  .prefer-container {
+    padding-left: 50px;
+  }
+  .prefer-container .title {
+    font-size: 40px;
+  }
+  .refer-description {
+    font-size: 22px;
+  }
+  .start-earn-btn {
+    font-size: 15px;
+  }
+  .benefits-container .benefits-content .title {
+    font-size: var(--section-title-font-size-mobile);
+  }
+  .loan-container .title {
+    font-size: var(--section-title-font-size-mobile);
+  }
+  .loan-container p {
+    font-size: var(--section-para-font-size-mobile);
+  }
+  .token-container .title {
+    font-size: var(--section-title-font-size-mobile);
+  }
+  .token-container p {
+    font-size: var(--section-para-font-size-mobile);
+  }
+  .token-container h2 {
+    font-size: 23px;
+  }
+  .top10-container .title {
+    font-size: var(--section-title-font-size-mobile);
+    padding: 0;
+  }
+  .top10-container .more-coins-btn {
+    font-size: 18px;
+    padding: 7px 25px;
+  }
+  .media-cards-container .title {
+    font-size: var(--section-title-font-size-mobile);
+  }
+  .media-cards-container p {
+    font-size: var(--section-para-font-size-mobile);
+  }
+  .media-cards {
+    margin-top: 0;
+  }
+  .featured-container .title {
+    font-size: var(--section-title-font-size-mobile);
+  }
+  .ceo-container .title {
+    font-size: var(--section-title-font-size-mobile);
+  }
+  .ceo-container p {
+    font-size: var(--section-para-font-size-mobile);
+  }
+  .raiting-container .title {
+    font-size: var(--section-title-font-size-mobile);
+  }
+  .footer-top-logo {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .detail-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .benefit-card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .benefit-card-content {
+    align-items: center;
+    text-align: center;
+  }
+  .benefit-card-content hr {
+    width: 100%;
+  }
+  .user-media-card {
+    height: 200px;
+  }
+  .media-card-content h2 {
+    font-size: 16px;
+  }
+  .media-card-content h1 {
+    font-size: 16px;
+  }
+  .media-card-img {
+    background-position: top;
+  }
+  .media-card-img h1 {
+    font-size: 12px;
+  }
+  .media-card-img {
+    background-position: top;
+  }
+  .media img {
+    width: 50px;
+  }
+  .reviews-container {
+    margin: 30px;
+  }
+  .reviews-container .left-shadow {
+    width: 40px;
+  }
+  .right-shadow .security-container {
+    padding: 30px;
+  }
+  .prefer-container {
+    padding: 30px;
+  }
+  footer {
+    padding: 30px;
+  }
+  .subscription-form-container {
+    padding: 14px;
+  }
+}
