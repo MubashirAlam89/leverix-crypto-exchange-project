@@ -55,4 +55,4 @@ Laverix offers the following features:
 <br>
 <br>
 
-### made with &#128151; by "Mubashir Alam"
+### made with &#128151; by "Mubashir Alam".
