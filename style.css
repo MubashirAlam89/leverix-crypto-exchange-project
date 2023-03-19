@@ -169,3 +169,54 @@ nav a:hover {
 /* Know the benefits Section End */
 
 /* ****************************************** */
+
+/* Loan Section Start */
+.loan-container {
+  margin-top: 110px;
+
+  padding: 50px;
+  display: flex;
+  gap: 20px;
+}
+.loan-container .bank-image {
+  width: 50%;
+}
+.loan-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.loan-content .title {
+  font-size: var(--section-title-font-size);
+  font-weight: var(--section-title-font-weight);
+}
+.loan-content span {
+  color: var(--green);
+}
+.loan-container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.loan-content li {
+  padding: 13px 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.loan-content p {
+  font-size: var(--section-para-font-size);
+}
+.loan-content li:last-child {
+  padding-left: 25px;
+  border-left: 1px solid var(--green);
+}
+.loan-content li:last-child p {
+  margin-bottom: 3px;
+}
+.loan-content img {
+  width: 20px;
+}
+/* Loan Section End */
+
+/* ****************************************** */
