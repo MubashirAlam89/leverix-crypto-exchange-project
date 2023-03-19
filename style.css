@@ -457,3 +457,64 @@ nav a:hover {
 /* Featured Section End */
 
 /* *************************************** */
+
+/* CEO Section Start */
+.ceo-container {
+  padding: 40px;
+  margin-top: 130px;
+  background-image: url(./assets/images/backgrounds/CEO-Background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: flex;
+  gap: 100px;
+  row-gap: 40px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.ceo-container .ceo-img {
+  max-width: 400px;
+  min-width: 250px;
+}
+.ceo-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+  min-width: 300px;
+  line-height: 1.4;
+}
+.ceo-content .title {
+  font-size: var(--section-title-font-size);
+  font-weight: var(--section-title-font-weight);
+}
+.ceo-content span {
+  color: var(--green);
+}
+.ceo-content p {
+  font-size: 25px;
+}
+.ceo-content-footer {
+  display: flex;
+  gap: 20px;
+}
+.ceo-content-footer h3 {
+  font-weight: 400;
+}
+.ceo-social-icons {
+  display: flex;
+  gap: 15px;
+}
+.ceo-social-icons img {
+  cursor: pointer;
+  transition: all 200ms;
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 10px;
+}
+.ceo-social-icons img:hover {
+  transform: scale(1.03);
+}
+/* CEO Section End */
