@@ -72,3 +72,37 @@ nav a:hover {
 /* Main-Screen Section End */
 
 /* ****************************************** */
+
+/* Detail Section Start */
+.detail-container {
+  z-index: 100;
+  margin-top: -300px;
+  padding: 50px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.detail {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.4;
+}
+
+.detail h1 {
+  color: var(--green);
+  font-size: 60px;
+  text-align: center;
+}
+.detail h3 {
+  text-align: center;
+
+  color: var(--grey);
+  font-size: 40px;
+}
+/* Detail Section End */
+
+/* ****************************************** */
