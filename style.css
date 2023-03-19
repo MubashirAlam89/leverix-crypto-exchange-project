@@ -18,3 +18,12 @@ html {
   --section-para-font-size: 30px;
   --section-para-font-size-mobile: 20px;
 }
+
+/* Main Container */
+.main-container {
+  margin: auto;
+  /* width: 90%; */
+  max-width: 1500px;
+  overflow-x: hidden;
+}
+/* Main Container */
