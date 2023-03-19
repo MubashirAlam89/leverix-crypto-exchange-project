@@ -276,3 +276,45 @@ nav a:hover {
 /* Token Section End */
 
 /* ****************************************** */
+
+/* Top 10 Section Start */
+.top10-container {
+  margin-top: 90px;
+
+  padding: 50px;
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.top10-container .title {
+  font-size: var(--section-title-font-size);
+  padding: 0 120px;
+  text-align: center;
+}
+.top10-container span {
+  color: var(--green);
+}
+.more-coins-btn {
+  padding: 12px 100px;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  background-color: var(--green);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 100ms;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.more-coins-btn:hover {
+  background-color: #0ed279e2;
+}
+.more-coins-btn:active {
+  background-color: white;
+  outline: 2px solid var(--green);
+  color: var(--green);
+}
+/* Top 10 Section End */
+
+/* ****************************************** */
