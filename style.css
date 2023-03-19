@@ -757,3 +757,55 @@ nav a:hover {
 /* Security Section End */
 
 /* ****************************************** */
+
+/* Prefer Section Start */
+.prefer-container {
+  background-image: url(./assets/images/backgrounds/footer-background-image.png);
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  margin-top: -100px;
+  height: 760px;
+  display: flex;
+  gap: 20px;
+  padding: 50px;
+  padding-left: 600px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.prefer-container .title {
+  font-size: 50px;
+  color: white;
+}
+.prefer-container .title span {
+  color: var(--green);
+}
+.refer-description {
+  color: white;
+  font-size: 30px;
+  line-height: 1.4;
+}
+.start-earn-btn {
+  padding: 12px 70px;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  background-color: var(--green);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 100ms;
+}
+.start-earn-btn:hover {
+  background-color: #0ed279e2;
+}
+.start-earn-btn:active {
+  background-color: white;
+  outline: 2px solid var(--green);
+  color: var(--green);
+}
+
+/* Prefer Section End */
+
+/* ****************************************** */
