@@ -699,3 +699,61 @@ nav a:hover {
 /* Reviews Section end */
 
 /* ****************************************** */
+
+/* Security Section Start */
+.security-container {
+  padding: 40px;
+  margin-bottom: 20px;
+  margin-top: 90px;
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.security-container .security-info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex: 1;
+  min-width: 360px;
+}
+.security-info .title {
+  font-weight: 600;
+  font-size: 50px;
+}
+.security-info-txt {
+  font-size: 25px;
+  line-height: 1.3;
+}
+.security-info .title span {
+  color: var(--green);
+}
+.security-container ul {
+  font-weight: 500;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  list-style: none;
+}
+.security-container li {
+  display: flex;
+  gap: 10px;
+  line-height: 1.4;
+}
+.security-container li img {
+  margin-top: 4px;
+  width: 20px;
+  height: 20px;
+}
+
+.security-container .sheild-image {
+  min-width: 360px;
+  width: 40%;
+}
+
+/* Security Section End */
+
+/* ****************************************** */
