@@ -518,3 +518,42 @@ nav a:hover {
   transform: scale(1.03);
 }
 /* CEO Section End */
+
+/* *************************************** */
+
+/* Rating Section Start */
+.raiting-container {
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.raiting-container .title {
+  font-size: var(--section-title-font-size);
+  font-weight: var(--section-title-font-weight);
+}
+.raiting-container p {
+  font-size: 25px;
+}
+.raiting-container .green-star {
+  width: 60px;
+}
+.raiting-score {
+  display: flex;
+  gap: 10px;
+}
+.raiting-5star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.raiting-5star img {
+  width: 40px;
+  height: 40px;
+}
+/* Rating Section End */
+
+/* *************************************** */
