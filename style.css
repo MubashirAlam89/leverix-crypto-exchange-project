@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  color: var(--grey);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --green: #00aa5d;
+  --grey: #383838;
+  --section-title-font-size: 60px;
+  --section-title-font-weight: 500;
+  --section-title-font-size-mobile: 36px;
+  --section-para-font-size: 30px;
+  --section-para-font-size-mobile: 20px;
+}
