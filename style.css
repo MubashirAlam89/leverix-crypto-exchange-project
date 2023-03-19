@@ -318,3 +318,99 @@ nav a:hover {
 /* Top 10 Section End */
 
 /* ****************************************** */
+
+/* Media Section Start */
+.media-cards-container {
+  margin-top: 110px;
+  padding: 50px;
+}
+
+.media-cards-container .title {
+  text-align: center;
+  font-size: var(--section-title-font-size);
+  font-weight: var(--section-title-font-weight);
+}
+.media-cards-container span {
+  color: var(--green);
+}
+.media-cards-container p {
+  margin-top: 50px;
+  font-size: var(--section-para-font-size);
+  text-align: center;
+}
+.media-cards {
+  padding-top: 65px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.user-media-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 380px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  border: 3px solid white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.user-media-card:nth-child(2) {
+  margin-top: 100px;
+}
+.user-media-card:nth-child(4) {
+  margin-top: 100px;
+}
+.media-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+}
+.media-card-content h2 {
+  color: #6b6a6a;
+  font-weight: 400;
+  font-size: 32px;
+}
+.media-card-content h1 {
+  color: #6b6a6a;
+}
+.media-card-img {
+  background-image: url(./assets/images/human-images/Eddi-Moon.PNG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0 15px 15px 15px;
+}
+.user-media-card:nth-child(2) .media-card-img {
+  background-image: url(assets/images/human-images/Max-Graham.PNG);
+}
+.user-media-card:nth-child(3) .media-card-img {
+  background-image: url(assets/images/human-images/Alex-Johns.PNG);
+}
+.user-media-card:nth-child(4) .media-card-img {
+  background-image: url(assets/images/human-images/Sam-Moher.PNG);
+}
+.media-card-img h1 {
+  color: white;
+  text-align: center;
+}
+.media {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.media img {
+  width: 120px;
+}
+/* Media Section End */
+
+/* *********************************** */
