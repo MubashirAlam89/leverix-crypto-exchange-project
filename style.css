@@ -414,3 +414,46 @@ nav a:hover {
 /* Media Section End */
 
 /* *********************************** */
+/* Featured Section Start */
+.featured-container {
+  margin: 40px;
+  margin-top: 130px;
+  overflow: hidden;
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+}
+.featured-container .title {
+  margin: auto;
+  font-size: var(--section-title-font-size);
+  font-weight: var(--section-title-font-weight);
+}
+.featured-brands img {
+  width: 150px;
+}
+.featured-container span {
+  color: var(--green);
+}
+.featured-brands {
+  width: max-content;
+  overflow: hidden;
+  display: flex;
+  gap: 30px;
+}
+.featured-brand-slider {
+  display: flex;
+  gap: 30px;
+  animation: brand-slider 50s linear infinite;
+}
+
+@keyframes brand-slider {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+/* Featured Section End */
+
+/* *************************************** */
