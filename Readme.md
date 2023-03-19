@@ -52,7 +52,14 @@ Laverix offers the following features:
 - You can make changes to your HTML and CSS files using VS Code, and save the changes. Then, Live Server will automatically refresh the browser to show the updated content.
 
 <br>
+
+## Live Demo.
+
+for live demo of leverix &#128073; <a href="https://leverix-project.netlify.app">click here.</a>
+
 <br>
+<br>
+<hr>
 <br>
 
-### made with &#128151; by "Mubashir Alam".
+### <div style="text-align:center"> made with &#128151; by "Mubashir Alam". </div>
