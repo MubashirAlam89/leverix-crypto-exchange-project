@@ -236,7 +236,7 @@ nav a:hover {
 .token-content {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 20px;
 }
 .token-content .title {
   font-size: var(--section-title-font-size);
@@ -249,6 +249,7 @@ nav a:hover {
   font-size: var(--section-para-font-size);
 }
 .token-benefits-cards {
+  margin-top: 20px;
   display: grid;
   gap: 30px;
 
@@ -334,7 +335,7 @@ nav a:hover {
   color: var(--green);
 }
 .media-cards-container p {
-  margin-top: 50px;
+  margin-top: 20px;
   font-size: var(--section-para-font-size);
   text-align: center;
 }
@@ -717,7 +718,7 @@ nav a:hover {
   flex-direction: column;
   gap: 30px;
   flex: 1;
-  min-width: 360px;
+  min-width: 300px;
 }
 .security-info .title {
   font-weight: 600;
@@ -750,7 +751,7 @@ nav a:hover {
 }
 
 .security-container .sheild-image {
-  min-width: 360px;
+  min-width: 300px;
   width: 40%;
 }
 
