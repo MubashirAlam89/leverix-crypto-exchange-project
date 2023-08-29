@@ -58,5 +58,4 @@ Laverix offers the following features:
 for live demo of leverix &#128073; <a href="https://leverix-project.netlify.app">click here.</a>
 
 <hr>
-
-made with &#128151; by "Mubashir Alam".
+made with &#128151; by <a href="https://www.mubashiralam.com">"Mubashir Alam"</a>.
